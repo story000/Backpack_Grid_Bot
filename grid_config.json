@@ -1,0 +1,54 @@
+{
+  "neutral": {
+    "symbol": "SOL_USDC_PERP",
+    "base_sol_amount": "200",
+    "grid_count": 200,
+    "grid_spread": "0.001",
+    "buy_grid_ratio": 0.5,
+    "sell_grid_ratio": 0.5,
+    "min_price": null,
+    "max_price": null,
+    "description": "Balanced grid - expects sideways movement",
+    "api_key_env": "BACKPACK_API_KEY",
+    "api_secret_env": "BACKPACK_API_SECRET"
+  },
+  "BTC": {
+    "symbol": "BTC_USDC_PERP",
+    "base_sol_amount": "0.1",
+    "grid_count": 50,
+    "grid_spread": "0.0003",
+    "buy_grid_ratio": 0.5,
+    "sell_grid_ratio": 0.5,
+    "min_price": null,
+    "max_price": null,
+    "description": "Balanced grid - expects sideways movement",
+    "api_key_env": "BACKPACK_BTC_API_KEY",
+    "api_secret_env": "BACKPACK_BTC_API_SECRET"
+  },
+  "short": {
+    "symbol": "SOL_USDC_PERP",
+    "base_sol_amount": "8.0",
+    "grid_count": 12,
+    "grid_spread": "0.025",
+    "buy_grid_ratio": 0.3,
+    "sell_grid_ratio": 0.7,
+    "min_price": null,
+    "max_price": null,
+    "description": "Bearish bias - more sell orders to distribute on pumps",
+    "api_key_env": "BACKPACK_API_KEY",
+    "api_secret_env": "BACKPACK_API_SECRET"
+  },
+  "eth_account": {
+    "symbol": "ETH_USDC_PERP",
+    "base_sol_amount": "2.0",
+    "grid_count": 50,
+    "grid_spread": "0.001",
+    "buy_grid_ratio": 0.5,
+    "sell_grid_ratio": 0.5,
+    "min_price": null,
+    "max_price": null,
+    "description": "ETH trading with separate account",
+    "api_key_env": "BACKPACK_ETH_API_KEY",
+    "api_secret_env": "BACKPACK_ETH_API_SECRET"
+  }
+}
